@@ -110,7 +110,6 @@
     <v-main>
       <v-container class="mt-10">
         <v-row>
-
           <v-col cols="6">
             <h2 style="margin-bottom: 10px">Biblioteca Digital</h2>
             <p>
@@ -127,12 +126,53 @@
           </v-col>
         </v-row>
       </v-container>
-
-      <!-- Contato -->
       <v-container>
-          <v-row></v-row>
+        <!-- Seção 1 -->
+        <v-row color="red lighten-1">
+          <v-col cols="12" class="text-center">
+            <h2>Nossos Serviços</h2>
+            <v-row>
+              <v-col cols="4">
+                <v-card
+                  color="red"
+                  height="150px"
+                  class="cartao d-flex justify-center align-center"
+                >
+                  <v-icon>mdi-school</v-icon>
+                </v-card>
+              </v-col>
+              <v-col cols="4">
+                <v-card
+                  color="red"
+                  height="150px"
+                  class="cartao d-flex justify-center align-center"
+                >
+                  <v-icon>mdi-library</v-icon>
+                </v-card>
+              </v-col>
+              <v-col cols="4">
+                <v-card
+                  color="red"
+                  height="150px"
+                  class="cartao d-flex justify-center align-center"
+                >
+                  <v-icon>mdi-library</v-icon>
+                </v-card>
+              </v-col>
+            </v-row>
+          </v-col>
+        </v-row>
+
+        <!-- Seção 2 -->
+        <v-row>
+          <v-col cols="12" class="text-center">
+            <h2>Seção 2</h2>
+            <p>Conteúdo da Seção 2...</p>
+          </v-col>
+        </v-row>
+
+        <!-- Adicione mais seções conforme necessário -->
       </v-container>
-    
     </v-main>
 
     <!-- Foooter -->
@@ -153,7 +193,7 @@
         </v-col>
 
         <!-- Explore -->
-        <v-col cols="2">
+        <v-col cols="2" class="text-start">
           <h3>Explore</h3>
           <v-list dense class="transparent">
             <v-list-item>
@@ -173,7 +213,7 @@
             </v-list-item>
           </v-list>
         </v-col>
-        <v-col cols="2">
+        <v-col cols="2" class="text-start">
           <h3>Serviços</h3>
           <v-list dense class="transparent">
             <v-list-item>
