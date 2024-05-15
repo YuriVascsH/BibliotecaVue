@@ -10,6 +10,7 @@
         @click="dialog = true"
         >Registrar</v-btn
       >
+      <!-- Inicio -->
       <v-dialog
         v-model="dialog"
         persistent
@@ -80,7 +81,7 @@
                           style="justify-content: center"
                         >
                           <v-btn
-                            @click="criarcc"
+                            @click="register"
                             width="200px"
                             type="submit"
                             color="primary"
@@ -97,7 +98,8 @@
           </v-container>
         </v-card>
       </v-dialog>
-
+      <!-- Fim -->
+      <!-- Botão de Login -->
       <v-btn
         elevation="3"
         color="transparent"
