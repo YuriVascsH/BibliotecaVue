@@ -1,0 +1,42 @@
+.orange-border {
+  background: none;
+  border: 2px solid orange !important;
+}
+
+.margin-left {
+  margin-left: 10px;
+}
+
+.titlebar {
+  margin-left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.orange-border :hover {
+  color: orange;
+  transition: color 0.5s;
+}
+
+.fundo {
+  margin-right: 10px;
+  width: 40px; /* Largura do círculo */
+  height: 40px; /* Altura do círculo */
+  background-color: red;
+  border-radius: 50%; /* Define a forma do elemento como um círculo */
+}
+
+.espaco {
+  margin-bottom: 15px;
+}
+.inicio {
+  margin-top: 20px;
+}
+.icone {
+  width: 40px;
+  height: 40px;
+  border-radius: 20%;
+  background-color: red;
+}
+
+.direita {
+  margin-right: 10px;
+}
